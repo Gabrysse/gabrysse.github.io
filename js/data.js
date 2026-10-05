@@ -20,7 +20,8 @@ var SITE_DATA = {
     { "section": "publications", "heading": "Publications", "width": 1 }
   ],
   "bio": "I am a PhD candidate in the Italian National PhD Program in Artificial Intelligence at Politecnico di Torino, in the <a href=\"https://vandal.polito.it/\">VANDAL lab</a>, in collaboration with the startup <a href=\"https://www.focoos.ai/\">FocoosAI</a>, supervised by Prof. Giuseppe Averta, Prof. Carlo Masone and Dr. Fabio Cermelli. I am part of the ELLIS PhD Program. My research focuses on visual understanding: image segmentation, efficient deep learning, and adapting models to new visual concepts with limited supervision. Since April 2026 I am visiting the <a href=\"https://fundamentalailab.github.io/\">Fundamental AI Lab (FunAI Lab)</a> at the University of Technology Nuremberg (UTN), working with Prof. Yuki M. Asano on spatial understanding in streaming videos. Before starting my PhD, I earned an MSc in Data Science & Engineering from Politecnico di Torino and a BSc in Computer Engineering from the University of Pisa.",
-  "portrait": "images/profile_image.png",
+  "portrait": "images/profile_image-600.webp",
+  "portraitSrcset": "images/profile_image-300.webp 300w, images/profile_image-600.webp 600w",
   // "icon" must be one of: "scholar", "github", "linkedin"
   "contact": [
     { "icon": "scholar",  "url": "https://scholar.google.com/citations?user=8AfX1GcAAAAJ", "text": "Google Scholar" },

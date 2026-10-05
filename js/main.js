@@ -118,9 +118,17 @@
       wrapper.innerHTML = '<h2 class="k">' + col.heading + '</h2>';
       var img = document.createElement('img');
       img.src = d.portrait;
+      if (d.portraitSrcset) {
+        img.srcset = d.portraitSrcset;
+        img.sizes = '(max-width: 327px) calc(100vw - 28px), 300px';
+      }
       img.alt = d.meta.name;
-      img.loading = 'lazy';
-      img.style.cssText = 'width:100%;max-width:300px;display:block;margin:0 auto 22px;';
+      img.width = 600;
+      img.height = 600;
+      img.loading = 'eager';
+      img.fetchPriority = 'high';
+      img.decoding = 'async';
+      img.style.cssText = 'width:100%;max-width:300px;height:auto;display:block;margin:0 auto 22px;';
       wrapper.appendChild(img);
       var bioP = document.createElement('p');
       bioP.className = 'bio';
