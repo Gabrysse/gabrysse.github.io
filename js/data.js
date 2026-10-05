@@ -1,9 +1,12 @@
-// Edit this file to update your site — no HTML changes needed.
-// Every field mirrors the original JSON structure.
+// Edit this file, then run: node scripts/build-site.mjs
+// The generated index.html is committed and served directly by GitHub Pages.
 
 var SITE_DATA = {
   "meta": {
     "name": "Gabriele Rosi",
+    "title": "Gabriele Rosi | PhD Candidate in Computer Vision",
+    "description": "Gabriele Rosi, PhD candidate at Politecnico di Torino and FocoosAI, researches image and video segmentation, efficient deep learning, and visual adaptation.",
+    "url": "https://gabrysse.github.io/",
     "tagline": "PhD Candidate, Politecnico di Torino & FocoosAI",
     // the header date is auto-generated at runtime in the user's locale/timezone
     "topline": {
